@@ -85,9 +85,7 @@ const Posts = ({ realData, current }) => {
           </TreeView>
         )}
       </div>
-      {/* <Routes>
-        <Route path=":id" element={ <Detail realData={realData}/>}/>
-      </Routes> */}
+
     </>
   );
 };
