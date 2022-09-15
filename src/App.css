@@ -130,13 +130,15 @@ small{
   color: white;
 }
 .smallL{
-  float: left;
-  width: 20%;
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+  padding-left: 50px;
 }
 .smallR{
-  float: left;
-  width: 80%;
   text-align: left;
+  display: inline-block;
+  width: 60%;
 }
 .inlinePic{
   display: inline-block;
@@ -148,6 +150,23 @@ small{
 }
 .delLike{
   text-align: right;
+}
+.oneline{
+  display: inline-block;
+}
+.outline{
+  float: right;
+}
+.arrReply{
+  display: inline-block;
+  text-align: right;
+  font-size: 7px;
+  font-style: italic;
+}
+.delrepB{
+  font-size: 10px;
+  background-color: #FFCBCB;
+  border-color: #FFCBCB;
 }
 .black{
   color: black;
@@ -174,7 +193,17 @@ small{
   background-color: #FFFDDE;
   height: 35px;
   width: 60px;
-  border-style:outset;
+  border-color: #FFFDDE;
+}
+.replyB{
+  background-color: #FFFDDE;
+  height: 40px;
+  border-color: #FFFDDE;
+  width: 8%;
+}
+.replyTab{
+  width: 80%;
+  height: 40px;
 }
 .editCenter, .table, .detailList{
   width: 70%;
@@ -183,7 +212,9 @@ small{
 }
 .detailR{
   text-align: right;
+  font-size: 15px;
 }
+
 .td1{
   width: 30%;
   font-size: 20px;
@@ -213,7 +244,7 @@ small{
 .out{
   text-align: right;
 }
-.name, .out:hover{
+.name, .out, .mouse:hover{
   cursor: pointer;
 }
 .gather{
@@ -270,4 +301,7 @@ small{
 .phoneImage{
   width: 100%;
   height: 100%;
+}
+.imgSize{
+  width: 60%;
 }

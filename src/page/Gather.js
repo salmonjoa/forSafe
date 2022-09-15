@@ -1,8 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import store from "../store/store";
-import { useSelector, useDispatch } from "react-redux";
 
-function Gather({ dishData }){
+function Gather(){
   let navigate = useNavigate();
   
   return (
